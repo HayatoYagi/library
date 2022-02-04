@@ -8,9 +8,10 @@ data:
       title: DataStructure/FenwickTree.cpp
   - name: DataStructure/SegmentTree
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/SegmentTree.cpp
-      title: DataStructure/SegmentTree/SegmentTree.cpp
+      title: "SegmentTree. 1\u70B9\u66F4\u65B0\uFF08\u66F8\u304D\u63DB\u3048\uFF09\
+        , \u533A\u9593\u53D6\u5F97."
   - name: Geometry
     pages:
     - icon: ':warning:'
@@ -51,11 +52,21 @@ data:
     - icon: ':warning:'
       path: graph/UnionFind.cpp
       title: graph/UnionFind.cpp
-  verificationCategories:
   - name: .
     pages:
+    - icon: ':warning:'
+      path: template.cpp
+      title: template.cpp
+  verificationCategories:
+  - name: test/aoj
+    pages:
     - icon: ':heavy_check_mark:'
-      path: example.test.cpp
-      title: example.test.cpp
+      path: test/aoj/DSL_2_A.test.cpp
+      title: test/aoj/DSL_2_A.test.cpp
+  - name: test
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: test/example.test.cpp
+      title: test/example.test.cpp
 layout: toppage
 ---

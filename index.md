@@ -29,7 +29,7 @@ data:
     - icon: ':warning:'
       path: Math/ModInt-Combination.cpp
       title: Math/ModInt-Combination.cpp
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Math/ModInt.cpp
       title: Math/ModInt.cpp
     - icon: ':warning:'
@@ -59,6 +59,9 @@ data:
   verificationCategories:
   - name: test/aoj
     pages:
+    - icon: ':heavy_check_mark:'
+      path: test/aoj/DPL_5_A.test.cpp
+      title: test/aoj/DPL_5_A.test.cpp
     - icon: ':heavy_check_mark:'
       path: test/aoj/DSL_1_A.test.cpp
       title: test/aoj/DSL_1_A.test.cpp

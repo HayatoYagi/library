@@ -6,6 +6,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: test/aoj/DPL_5_A.test.cpp
     title: test/aoj/DPL_5_A.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: test/aoj/DPL_5_B.test.cpp
+    title: test/aoj/DPL_5_B.test.cpp
   _isVerificationFailed: false
   _pathExtension: cpp
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -70,6 +73,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - test/aoj/DPL_5_A.test.cpp
+  - test/aoj/DPL_5_B.test.cpp
 documentation_of: Math/ModInt.cpp
 layout: document
 redirect_from:

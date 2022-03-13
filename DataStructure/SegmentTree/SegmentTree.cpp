@@ -2,8 +2,8 @@
 using namespace std;
 
 /**
- * @brief SegmentTree. 1点更新（書き換え）, 区間取得.
- * @details Tはコンストラクタ引数の2項演算fによってMonoidを成しているとする.
+ * @brief Segment tree
+ * @details 1点更新（書き換え）区間取得. Tはコンストラクタ引数の2項演算fによってMonoidを成しているとする.
  * 
  * @tparam T Monoid
  */

@@ -1,7 +1,7 @@
-template<int64 mod>
+template<int_fast64_t mod>
 struct ModInt{
-  int64 x;
-  constexpr ModInt(int64 y = 0):x((y%mod+mod)%mod){}
+  int_fast64_t x;
+  constexpr ModInt(int_fast64_t y = 0):x((y%mod+mod)%mod){}
   constexpr ModInt& operator+=(const ModInt& a){
     if((x += a.x) >= mod) x -= mod;
     return *this;
@@ -57,7 +57,7 @@ struct ModInt{
   constexpr bool operator!=(const ModInt& a) const {
     return x != a.x;
   }
-  constexpr ModInt pow(int64 r) const {
+  constexpr ModInt pow(int_fast64_t r) const {
     if(!r)return 1;
     ModInt res = pow(r>>1);
     res *= res;
@@ -68,7 +68,7 @@ struct ModInt{
     return pow(mod-2);
   }
   friend istream& operator>>(istream& is, ModInt& a){
-    int64 t;
+    int_fast64_t t;
     is >> t;
     a = ModInt(t);
     return is;

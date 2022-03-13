@@ -3,8 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/SegmentTree/SegmentTree.cpp
-    title: "SegmentTree. 1\u70B9\u66F4\u65B0\uFF08\u66F8\u304D\u63DB\u3048\uFF09,\
-      \ \u533A\u9593\u53D6\u5F97."
+    title: Segment tree
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
@@ -31,10 +30,10 @@ data:
     \ a, T b) {\n  if (a < b) { a = b; return true; } return false;\n}\ntemplate<class\
     \ T> inline bool chmin(T& a, T b) {\n  if (a > b) { a = b; return true; } return\
     \ false;\n}\n\n#line 2 \"DataStructure/SegmentTree/SegmentTree.cpp\"\nusing namespace\
-    \ std;\n\n/**\n * @brief SegmentTree. 1\u70B9\u66F4\u65B0\uFF08\u66F8\u304D\u63DB\
-    \u3048\uFF09, \u533A\u9593\u53D6\u5F97.\n * @details T\u306F\u30B3\u30F3\u30B9\
-    \u30C8\u30E9\u30AF\u30BF\u5F15\u6570\u306E2\u9805\u6F14\u7B97f\u306B\u3088\u3063\
-    \u3066Monoid\u3092\u6210\u3057\u3066\u3044\u308B\u3068\u3059\u308B.\n * \n * @tparam\
+    \ std;\n\n/**\n * @brief Segment tree\n * @details 1\u70B9\u66F4\u65B0\uFF08\u66F8\
+    \u304D\u63DB\u3048\uFF09\u533A\u9593\u53D6\u5F97. T\u306F\u30B3\u30F3\u30B9\u30C8\
+    \u30E9\u30AF\u30BF\u5F15\u6570\u306E2\u9805\u6F14\u7B97f\u306B\u3088\u3063\u3066\
+    Monoid\u3092\u6210\u3057\u3066\u3044\u308B\u3068\u3059\u308B.\n * \n * @tparam\
     \ T Monoid\n */\ntemplate<typename T>\nstruct SegmentTree{\n  typedef function<T(T,T)>\
     \ F;\n  /**\n   * @brief Construct a new Segment Tree object\n   * @details $O(n)$\n\
     \   * \n   * @param n_ \u8981\u7D20\u6570\n   * @param f 2\u9805\u6F14\u7B97\n\
@@ -89,7 +88,7 @@ data:
   isVerificationFile: true
   path: test/aoj/DSL_2_A.test.cpp
   requiredBy: []
-  timestamp: '2022-02-05 01:31:02+09:00'
+  timestamp: '2022-03-13 15:01:13+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: test/aoj/DSL_2_A.test.cpp

@@ -10,8 +10,7 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/SegmentTree.cpp
-      title: "SegmentTree. 1\u70B9\u66F4\u65B0\uFF08\u66F8\u304D\u63DB\u3048\uFF09\
-        , \u533A\u9593\u53D6\u5F97."
+      title: Segment tree
   - name: Geometry
     pages:
     - icon: ':warning:'
@@ -49,9 +48,9 @@ data:
       title: graph/Path/dijkstra.cpp
   - name: graph
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: graph/UnionFind.cpp
-      title: graph/UnionFind.cpp
+      title: Union Find Tree (Disjoint Set Union)
   - name: .
     pages:
     - icon: ':warning:'
@@ -60,6 +59,9 @@ data:
   verificationCategories:
   - name: test/aoj
     pages:
+    - icon: ':heavy_check_mark:'
+      path: test/aoj/DSL_1_A.test.cpp
+      title: test/aoj/DSL_1_A.test.cpp
     - icon: ':heavy_check_mark:'
       path: test/aoj/DSL_2_A.test.cpp
       title: test/aoj/DSL_2_A.test.cpp

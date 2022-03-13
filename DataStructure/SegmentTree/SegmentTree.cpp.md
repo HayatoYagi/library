@@ -10,12 +10,11 @@ data:
   _pathExtension: cpp
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
-    document_title: "SegmentTree. 1\u70B9\u66F4\u65B0\uFF08\u66F8\u304D\u63DB\u3048\
-      \uFF09, \u533A\u9593\u53D6\u5F97."
+    document_title: Segment tree
     links: []
   bundledCode: "#line 1 \"DataStructure/SegmentTree/SegmentTree.cpp\"\n#include <bits/stdc++.h>\n\
-    using namespace std;\n\n/**\n * @brief SegmentTree. 1\u70B9\u66F4\u65B0\uFF08\u66F8\
-    \u304D\u63DB\u3048\uFF09, \u533A\u9593\u53D6\u5F97.\n * @details T\u306F\u30B3\
+    using namespace std;\n\n/**\n * @brief Segment tree\n * @details 1\u70B9\u66F4\
+    \u65B0\uFF08\u66F8\u304D\u63DB\u3048\uFF09\u533A\u9593\u53D6\u5F97. T\u306F\u30B3\
     \u30F3\u30B9\u30C8\u30E9\u30AF\u30BF\u5F15\u6570\u306E2\u9805\u6F14\u7B97f\u306B\
     \u3088\u3063\u3066Monoid\u3092\u6210\u3057\u3066\u3044\u308B\u3068\u3059\u308B\
     .\n * \n * @tparam T Monoid\n */\ntemplate<typename T>\nstruct SegmentTree{\n\
@@ -42,12 +41,12 @@ data:
     \ v){\n    for(int i=0;i<n_;++i)dat[n+i]=v[i];\n    build();\n  }\n  void build(){\n\
     \    for(int i=n-1;i>=1;--i){\n      dat[i] = f(dat[i<<1],dat[i<<1|1]);\n    }\n\
     \  }\n};\n"
-  code: "#include <bits/stdc++.h>\nusing namespace std;\n\n/**\n * @brief SegmentTree.\
-    \ 1\u70B9\u66F4\u65B0\uFF08\u66F8\u304D\u63DB\u3048\uFF09, \u533A\u9593\u53D6\u5F97\
-    .\n * @details T\u306F\u30B3\u30F3\u30B9\u30C8\u30E9\u30AF\u30BF\u5F15\u6570\u306E\
-    2\u9805\u6F14\u7B97f\u306B\u3088\u3063\u3066Monoid\u3092\u6210\u3057\u3066\u3044\
-    \u308B\u3068\u3059\u308B.\n * \n * @tparam T Monoid\n */\ntemplate<typename T>\n\
-    struct SegmentTree{\n  typedef function<T(T,T)> F;\n  /**\n   * @brief Construct\
+  code: "#include <bits/stdc++.h>\nusing namespace std;\n\n/**\n * @brief Segment\
+    \ tree\n * @details 1\u70B9\u66F4\u65B0\uFF08\u66F8\u304D\u63DB\u3048\uFF09\u533A\
+    \u9593\u53D6\u5F97. T\u306F\u30B3\u30F3\u30B9\u30C8\u30E9\u30AF\u30BF\u5F15\u6570\
+    \u306E2\u9805\u6F14\u7B97f\u306B\u3088\u3063\u3066Monoid\u3092\u6210\u3057\u3066\
+    \u3044\u308B\u3068\u3059\u308B.\n * \n * @tparam T Monoid\n */\ntemplate<typename\
+    \ T>\nstruct SegmentTree{\n  typedef function<T(T,T)> F;\n  /**\n   * @brief Construct\
     \ a new Segment Tree object\n   * @details $O(n)$\n   * \n   * @param n_ \u8981\
     \u7D20\u6570\n   * @param f 2\u9805\u6F14\u7B97\n   * @param e \u5358\u4F4D\u5143\
     \n   */\n  SegmentTree(int n_,F f,T e):f(f),e(e){\n    init(n_);\n    build();\n\
@@ -74,7 +73,7 @@ data:
   isVerificationFile: false
   path: DataStructure/SegmentTree/SegmentTree.cpp
   requiredBy: []
-  timestamp: '2022-02-05 01:31:02+09:00'
+  timestamp: '2022-03-13 15:01:13+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - test/aoj/DSL_2_A.test.cpp
@@ -83,6 +82,5 @@ layout: document
 redirect_from:
 - /library/DataStructure/SegmentTree/SegmentTree.cpp
 - /library/DataStructure/SegmentTree/SegmentTree.cpp.html
-title: "SegmentTree. 1\u70B9\u66F4\u65B0\uFF08\u66F8\u304D\u63DB\u3048\uFF09, \u533A\
-  \u9593\u53D6\u5F97."
+title: Segment tree
 ---

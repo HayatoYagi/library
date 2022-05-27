@@ -35,9 +35,9 @@ data:
     - icon: ':warning:'
       path: Math/enumerate sets.cpp
       title: Math/enumerate sets.cpp
-    - icon: ':warning:'
-      path: Math/prime_factor.cpp
-      title: Math/prime_factor.cpp
+    - icon: ':heavy_check_mark:'
+      path: Math/prime_factorization.cpp
+      title: Math/prime_factorization.cpp
   - name: graph/Path
     pages:
     - icon: ':warning:'
@@ -71,6 +71,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: test/aoj/DSL_2_A.test.cpp
       title: test/aoj/DSL_2_A.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: test/aoj/NTL_1_A.test.cpp
+      title: test/aoj/NTL_1_A.test.cpp
   - name: test
     pages:
     - icon: ':heavy_check_mark:'

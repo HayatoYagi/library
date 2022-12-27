@@ -33,8 +33,8 @@ data:
       path: Math/ModInt.cpp
       title: Math/ModInt.cpp
     - icon: ':warning:'
-      path: Math/enumerate sets.cpp
-      title: Math/enumerate sets.cpp
+      path: Math/enumerate_sets.cpp
+      title: Math/enumerate_sets.cpp
     - icon: ':heavy_check_mark:'
       path: Math/prime_factorization.cpp
       title: Math/prime_factorization.cpp
